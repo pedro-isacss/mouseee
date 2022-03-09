@@ -1,0 +1,23 @@
+{
+  "name": "mouseee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro-isacss/mouseee.git"
+  },
+  "author": "Pedro Isac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedro-isacss/mouseee/issues"
+  },
+  "homepage": "https://github.com/pedro-isacss/mouseee#readme"
+}
