@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
   <style>
     * {
       cursor: none;
@@ -17,7 +16,15 @@
 <body
   style="background-color: rgb(40, 124, 82); display: flex; justify-content: center; align-items: center; height: 200vh;">
   <a href="#">TESTE HOVER</a>
-  <script src="../lib/index.js"></script>
+  <script src="../lib/index.js" type="module"></script>
+  <script>
+    const mouseeeConfig = {
+      trailColor: "#f00",
+      size: 30,
+      color: "#f0f",
+      trailTime: 1000
+    }
+  </script>
 </body>
 
 </html>
