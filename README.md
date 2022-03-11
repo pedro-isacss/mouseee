@@ -1,28 +1,20 @@
 <h1 align="center">Mouseee</h1>
 
 <p align="center">
-  <img alt="NPM" src="https://img.shields.io/npm/l/mouseee?style=flat-square">
-  <img alt="jsDelivr hits (npm)" src="https://img.shields.io/jsdelivr/npm/hy/mouseee?style=flat-square">
-  <img alt="npm" src="https://img.shields.io/npm/v/mouseee?style=flat-square">
+  <img alt="NPM" src="https://img.shields.io/npm/l/mouseee?color=00C288&style=flat-square">
+  <img alt="jsDelivr hits (npm)" src="https://img.shields.io/jsdelivr/npm/hy/mouseee?color=00C288&style=flat-square">
+  <img alt="npm" src="https://img.shields.io/npm/v/mouseee?color=00C288&style=flat-square">
 </p>
 
 <p align="center">
-  Mouseee replaces the browser's default cursor with a custom cursor.
+  A simple custom cursor that leaves a temporary trail wherever it goes.
 </p>
 
 ---------------------
 
 ## Get Started
 
-First of all, we need to hide the browser's default cursor. Doing this is simple, just include the following code snippet in your global CSS:
-
-```CSS
-* {
-  cursor: none;
-}
-```
-
-Now import the Mouseee code via CDN and replace {version} with the desired version.
+Import the Mouseee code via CDN and replace {version} with the desired version.
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/mouseee@{version}/lib/index.js" type="module"></script>
@@ -30,9 +22,17 @@ Now import the Mouseee code via CDN and replace {version} with the desired versi
 
 > See all versions of the Mouse by [clicking here](https://www.npmjs.com/package/mouseee).
 
-## Setting
+## Customizing
 
-You can customize the cursor via mouseeeConfig object:
+1 - Hide the default cursor (Optional):
+
+```CSS
+* {
+  cursor: none;
+}
+```
+
+2 - Customize the cursor (Optional):
 
 ```javascript
 const mouseeeConfig = {
