@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Mouseee replaces the browser's default cursor with a custom cursor.
+  A simple custom cursor that leaves a temporary trail wherever it goes.
 </p>
 
 ---------------------
