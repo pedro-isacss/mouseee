@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>Mouseee | custom cursor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    :root {
+      --theme: #00C288
+    }
+  </style>
+</head>
+
+<body>
+  <!-- === NAV === -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow mb-5 bg-body">
+    <div class="container">
+      <a class="navbar-brand" style="color: var(--theme);" href="#">
+        <img src="./logo.svg" alt="Mouseee" width="28" height="28" class="d-inline-block align-text-center me-2">
+        Mouseee
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/pedro-isacss/mouseee" target="_blank">Collaborate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.buymeacoffee.com/ss.pedroisac/" target="_blank">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- === Infos === -->
+  <div class="container pb-5">
+    <div class="row gy-5">
+      <div class="col-lg-6">
+        <h3>
+          Mouseee
+        </h3>
+        <p class="lead w-100">A simple custom cursor that leaves a temporary trail wherever
+          it
+          goes.</p>
+        <div class="row">
+          <div class="col">
+            <a type="button" class="btn w-100 text-light" style="background-color: var(--theme);">GitHub</a>
+          </div>
+          <div class="col">
+            <a type="button" class="btn w-100" style="color: var(--theme); border-color: var(--theme);">Download</a>
+          </div>
+        </div>
+        <div class="mt-4">
+          <img alt="npm" src="https://img.shields.io/npm/v/mouseee?color=00C288&style=flat-square">
+          <img alt="jsDelivr hits (npm)"
+            src="https://img.shields.io/jsdelivr/npm/hy/mouseee?color=00C288&style=flat-square">
+          <img alt="GitHub Repo stars"
+            src="https://img.shields.io/github/stars/pedro-isacss/mouseee?color=00C288&style=flat-square">
+        </div>
+        <div class="mt-5">
+          <p class="mt-3 w-100">Import by CDN and replace {version} with one of the <a
+              href="https://www.npmjs.com/package/mouseee" target="_blank" style="color: var(--theme);">versions</a>.
+          </p>
+          <div class="w-100" style="overflow: auto; height: 113px;">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fnpm%252Fmouseee%2540%257Bversion%257D%252Flib%252Findex.js%2522%2520type%253D%2522module%2522%253E%253C%252Fscript%253E"
+              style="width: 500px; height: 113px; border:0;" sandbox="allow-scripts allow-same-origin"
+              class="shadow bg-body">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex flex-column align-items-start">
+        <p class="w-100">1 - Hide the default cursor (Optional)</p>
+        <div class="w-100" style="overflow: auto; height: 115px;">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=*%2520%257B%250A%2520%2520cursor%253A%2520none%253B%250A%257D"
+            style="width: 500px; height: 115px; border:0;" sandbox="allow-scripts allow-same-origin"
+            class="shadow mb-5 bg-body">
+          </iframe>
+        </div>
+        <p class="w-100 mt-4">2 - Customize the cursor (Optional)</p>
+        <div class="w-100" style="overflow: auto; height: 167px">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=16px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=const%2520mouseeeConfig%2520%253D%2520%257B%250A%2520%2520color%253A%2520%2522%2523fff%2522%252C%2520%2520%252F%252F%2520cursor%2520border%2520color%250A%2520%2520size%253A%252020%252C%2520%2520%252F%252F%2520cursor%2520size%250A%2520%2520trailColor%253A%2520%2522%2523fff%2522%252C%2520%2520%252F%252F%2520trail%2520color%250A%2520%2520trailTime%253A%2520300%2520%2520%252F%252F%2520trail%2520duration%2520time%250A%257D"
+            style="width: 500px; height: 167px; border:0;" sandbox="allow-scripts allow-same-origin"
+            class="shadow mb-5 bg-body">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-100 py-5" style="background-color: var(--theme);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-2 my-1 justify-content-center d-flex">
+          <a target="_blank" href="https://github.com/pedro-isacss/mouseee" class="text-light">Collaborate</a>
+        </div>
+        <div class="col-sm-12 col-md-2 my-1 justify-content-center d-flex">
+          <a target="_blank" href="https://www.buymeacoffee.com/ss.pedroisac/" class="text-light">Support</a>
+        </div>
+        <div class="col-sm-12 col-md-2 my-1 justify-content-center d-flex">
+          <a target="_blank" href="https://github.com/pedro-isacss/mouseee/blob/master/LICENSE"
+            class="text-light">License</a>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <span id="attr" class="text-light text-center d-flex justify-content-center"></span>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mouseee@1.1.0/lib/index.js" type="module"></script>
+  <script>
+    const mouseeeConfig = {
+      color: "var(--theme)",
+      trailColor: "var(--theme)"
+    }
+    const attr = document.getElementById("attr")
+    const date = new Date()
+    attr.innerHTML = `&copy; ${date.getFullYear()}&#32; <a class="mx-2 text-light" href="https://www.instagram.com/ss.pedroisac/">Pedro Isac</a>`
+  </script>
+</body>
+
+</html>
