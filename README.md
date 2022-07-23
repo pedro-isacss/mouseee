@@ -51,4 +51,3 @@ Mouseee is [MIT licensed](https://github.com/pedro-isacss/mouseee/blob/master/LI
 Hi, my name is Pedro Isac.
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?to=ss.pedroisac@gmail.com&tf=cm)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedro-isacss)
