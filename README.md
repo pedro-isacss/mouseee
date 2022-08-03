@@ -1,9 +1,9 @@
 <h1 align="center">Mouseee</h1>
 
 <p align="center">
-  <img alt="NPM" src="https://img.shields.io/npm/l/mouseee?color=00C288&style=flat-square">
-  <img alt="jsDelivr hits (npm)" src="https://img.shields.io/jsdelivr/npm/hy/mouseee?color=00C288&style=flat-square">
-  <img alt="npm" src="https://img.shields.io/npm/v/mouseee?color=00C288&style=flat-square">
+  <img alt="NPM" src="https://img.shields.io/npm/l/mouseee?color=00B4DB&style=flat-square">
+  <img alt="jsDelivr hits (npm)" src="https://img.shields.io/jsdelivr/npm/hy/mouseee?color=00B4DB&style=flat-square">
+  <img alt="npm" src="https://img.shields.io/npm/v/mouseee?color=00B4DB&style=flat-square">
 </p>
 
 <p align="center">
