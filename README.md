@@ -39,7 +39,8 @@ const mouseeeConfig = {
   color: "#fff",  // cursor border color
   size: 20,  // cursor size
   trailColor: "#fff",  // trail color
-  trailTime: 300  // trail duration time
+  trailTime: 300,  // trail duration time
+  showTrail: true // show trail
 }
 ```
 
