@@ -49,5 +49,5 @@ const mouseeeConfig = {
 Mouseee is [MIT licensed](https://github.com/pedro-isacss/mouseee/blob/master/LICENSE).
 
 ## More details
-- NPM: https://www.pedroisac.dev/mouseee/
+- NPM: https://www.npmjs.com/package/mouseee
 - jsDelivr: https://www.jsdelivr.com/package/npm/mouseee
