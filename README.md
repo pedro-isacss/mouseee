@@ -48,7 +48,6 @@ const mouseeeConfig = {
 
 Mouseee is [MIT licensed](https://github.com/pedro-isacss/mouseee/blob/master/LICENSE).
 
-## Author
-Hi, my name is Pedro Isac.
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?to=ss.pedroisac@gmail.com&tf=cm)
+## More details
+- NPM: https://www.pedroisac.dev/mouseee/
+- jsDelivr: https://www.jsdelivr.com/package/npm/mouseee
