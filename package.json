@@ -14,7 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/pedro-isacss/mouseee.git"
   },
-  "author": "Pedro Isac",
+  "author": {
+    "name": "Pedro Isac",
+    "email": "contact@pedroisac.dev",
+    "url": "https://pedroisac.dev/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pedro-isacss/mouseee/issues"

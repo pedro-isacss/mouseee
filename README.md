@@ -10,14 +10,17 @@
   A simple custom cursor that leaves a temporary trail wherever it goes.
 </p>
 
----------------------
+---
 
 ## Get Started
 
 Import the Mouseee code via CDN and replace {version} with the desired version.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/mouseee@{version}/lib/index.js" type="module"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/mouseee@{version}/lib/index.js"
+  type="module"
+></script>
 ```
 
 > See all versions of the Mouse by [clicking here](https://www.npmjs.com/package/mouseee).
@@ -36,12 +39,13 @@ Import the Mouseee code via CDN and replace {version} with the desired version.
 
 ```javascript
 const mouseeeConfig = {
-  color: "#fff",  // cursor border color
-  size: 20,  // cursor size
-  trailColor: "#fff",  // trail color
-  trailTime: 300,  // trail duration time
-  showTrail: true // show trail
-}
+  color: "#fff", // cursor border color
+  size: 20, // cursor size
+  trailColor: "#fff", // trail color
+  trailTime: 300, // trail duration time
+  showTrail: true, // show trail
+  clickAnimation: true, // animation on click
+};
 ```
 
 ## Licence
@@ -49,5 +53,6 @@ const mouseeeConfig = {
 Mouseee is [MIT licensed](https://github.com/pedro-isacss/mouseee/blob/master/LICENSE).
 
 ## More details
+
 - NPM: https://www.npmjs.com/package/mouseee
 - jsDelivr: https://www.jsdelivr.com/package/npm/mouseee
